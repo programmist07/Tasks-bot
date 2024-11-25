@@ -4,8 +4,8 @@ from datetime import datetime
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-BOT_TOKEN = "7613984162:AAEXQtRwzKetBpP__oquj4yYA-Sa4SNoslU"
-Channel_Id = "@hikvik"
+BOT_TOKEN = "Token here"
+Channel_Id = "channel link"
 
 
 async def save_to_json(user, msg_type, content):
